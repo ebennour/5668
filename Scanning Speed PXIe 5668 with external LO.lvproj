@@ -11,11 +11,18 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="SubVIs" Type="Folder">
+			<Item Name="5668 Configure Power Level.vi" Type="VI" URL="../5668 Configure Power Level.vi"/>
+			<Item Name="5668 Configure RF with External LO.vi" Type="VI" URL="../5668 Configure RF with External LO.vi"/>
+			<Item Name="5668 Configure Scan with External LO.vi" Type="VI" URL="../5668 Configure Scan with External LO.vi"/>
+			<Item Name="5668 Configure Triggers and Events.vi" Type="VI" URL="../5668 Configure Triggers and Events.vi"/>
+			<Item Name="5668 Initialize Scan with External LO.vi" Type="VI" URL="../5668 Initialize Scan with External LO.vi"/>
+			<Item Name="5668 Initiate Scan with External LO.vi" Type="VI" URL="../5668 Initiate Scan with External LO.vi"/>
+			<Item Name="5668 Scan with External LO Fetch Data.vi" Type="VI" URL="../5668 Scan with External LO Fetch Data.vi"/>
+			<Item Name="5668 Stop Scan with External LO.vi" Type="VI" URL="../5668 Stop Scan with External LO.vi"/>
 			<Item Name="Compute LO Output Power Level.vi" Type="VI" URL="../Compute LO Output Power Level.vi"/>
 			<Item Name="Compute LO1 Frequencies with Formula.vi" Type="VI" URL="../Compute LO1 Frequencies with Formula.vi"/>
 			<Item Name="Convert dBV rms to dBm.vi" Type="VI" URL="../Convert dBV rms to dBm.vi"/>
 			<Item Name="Load 5668 FPGA Personality and Parameters.vi" Type="VI" URL="../Load 5668 FPGA Personality and Parameters.vi"/>
-			<Item Name="RFSA Configure Scan with External LO.vi" Type="VI" URL="../RFSA Configure Scan with External LO.vi"/>
 			<Item Name="RFSG List Mode LO Signal Generation for 5668.vi" Type="VI" URL="../RFSG List Mode LO Signal Generation for 5668.vi"/>
 		</Item>
 		<Item Name="RFSA 5668 Scanning Speed Benchmark Multi Record IQ.vi" Type="VI" URL="../RFSA 5668 Scanning Speed Benchmark Multi Record IQ.vi"/>
@@ -64,7 +71,6 @@
 				<Item Name="niRFSA Trigger Terminals.ctl" Type="VI" URL="/&lt;instrlib&gt;/niRFSA/niRFSA.llb/niRFSA Trigger Terminals.ctl"/>
 				<Item Name="niRFSA wfmInfo.ctl" Type="VI" URL="/&lt;instrlib&gt;/niRFSA/niRFSA.llb/niRFSA wfmInfo.ctl"/>
 				<Item Name="niRFSG Abort.vi" Type="VI" URL="/&lt;instrlib&gt;/niRFSG/niRFSG.llb/niRFSG Abort.vi"/>
-				<Item Name="niRFSG Check Generation Status.vi" Type="VI" URL="/&lt;instrlib&gt;/niRFSG/niRFSG.llb/niRFSG Check Generation Status.vi"/>
 				<Item Name="niRFSG Close.vi" Type="VI" URL="/&lt;instrlib&gt;/niRFSG/niRFSG.llb/niRFSG Close.vi"/>
 				<Item Name="niRFSG Commit.vi" Type="VI" URL="/&lt;instrlib&gt;/niRFSG/niRFSG.llb/niRFSG Commit.vi"/>
 				<Item Name="niRFSG Configuration List Properties.ctl" Type="VI" URL="/&lt;instrlib&gt;/niRFSG/niRFSG.llb/niRFSG Configuration List Properties.ctl"/>
@@ -119,6 +125,8 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="5668 Initilize Scan with External LO.vi" Type="VI" URL="../5668 Initilize Scan with External LO.vi"/>
+			<Item Name="Config Data.ctl" Type="VI" URL="../Config Data.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="niRFSA.dll" Type="Document" URL="niRFSA.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
