@@ -25,9 +25,14 @@
 			<Item Name="Load 5668 FPGA Personality and Parameters.vi" Type="VI" URL="../Load 5668 FPGA Personality and Parameters.vi"/>
 			<Item Name="RFSG List Mode LO Signal Generation for 5668.vi" Type="VI" URL="../RFSG List Mode LO Signal Generation for 5668.vi"/>
 		</Item>
+		<Item Name="5668 Get Array Index from Frequency Value.vi" Type="VI" URL="../5668 Get Array Index from Frequency Value.vi"/>
+		<Item Name="5668 Plot Spectrum.vi" Type="VI" URL="../5668 Plot Spectrum.vi"/>
+		<Item Name="5668 Truncate Spectrum.vi" Type="VI" URL="../5668 Truncate Spectrum.vi"/>
+		<Item Name="Instrument Handles.ctl" Type="VI" URL="../Instrument Handles.ctl"/>
 		<Item Name="RFSA 5668 Scanning Speed Benchmark Multi Record IQ.vi" Type="VI" URL="../RFSA 5668 Scanning Speed Benchmark Multi Record IQ.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
+				<Item Name="niRFSA Abort.vi" Type="VI" URL="/&lt;instrlib&gt;/niRFSA/niRFSA.llb/niRFSA Abort.vi"/>
 				<Item Name="niRFSA Acquisition Types.ctl" Type="VI" URL="/&lt;instrlib&gt;/niRFSA/niRFSA.llb/niRFSA Acquisition Types.ctl"/>
 				<Item Name="niRFSA Close.vi" Type="VI" URL="/&lt;instrlib&gt;/niRFSA/niRFSA.llb/niRFSA Close.vi"/>
 				<Item Name="niRFSA Configure Acquisition Type.vi" Type="VI" URL="/&lt;instrlib&gt;/niRFSA/niRFSA.llb/niRFSA Configure Acquisition Type.vi"/>
@@ -125,6 +130,7 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="5668 Close Scan with External LO.vi" Type="VI" URL="../5668 Close Scan with External LO.vi"/>
 			<Item Name="5668 Initilize Scan with External LO.vi" Type="VI" URL="../5668 Initilize Scan with External LO.vi"/>
 			<Item Name="Config Data.ctl" Type="VI" URL="../Config Data.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
